@@ -34,7 +34,7 @@ Update the Babel configuration in the `package.json` file:
 },
 ```
 
-And that's it. You can now create a React app using `app/javascript/application.js` as your entry point.
+And that's it. You can now create a React app using `app/javascript/packs/application.js` as your entry point.
 
 ## Enabling Hot Module Replacement (HMR)
 
@@ -152,7 +152,7 @@ echo '<div id="root"></div>' > app/views/site/index.html.erb
 touch app/javascript/App.css app/javascript/App.js
 ```
 
-4. Edit `app/javascript/application.js` like so:
+4. Edit `app/javascript/packs/application.js` like so:
 ```jsx
 import React from 'react';
 import { createRoot } from 'react-dom/client';
